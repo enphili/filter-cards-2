@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 650px;
+  justify-content: space-between;
+}
+.cart-wrapper {
+  width: 400px;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px 5px;
+  border: 1px solid #333;
+}
+.tags-wrapper {
+  width: 150px; 
+  border: 1px solid #333;
+}
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  font-size: 10px;
+}
+.tag {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 2px;
+  border: 1px solid #333;
+  font-size: 11px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.tag--active {
+  border-color: red;
+  background-color: pink;
+}
